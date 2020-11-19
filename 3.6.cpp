@@ -16,7 +16,7 @@ int main(){
     //bitは2^N通りの部分集合全体を動く
     bool exist = false;
 
-    for(int bit = 0; bit << (1 << N); bit++){
+    for(int bit = 0; bit < (1 << N); bit++){
         int sum = 0; //部分集合に含まれる要素の和
         for(int i = 0; i < N; i++){
             //i番目の要素a[i]が部分集合に含まれるかどうか
