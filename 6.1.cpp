@@ -32,5 +32,6 @@ int main(){
     cout << binary_search(-100) << endl; //-1
     cout << binary_search(9) << endl; //-1
     cout << binary_search(100) << endl; //-1
+    
     return 0;
 }
